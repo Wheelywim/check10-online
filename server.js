@@ -9,7 +9,7 @@ const PORT = process.env.PORT || 3000; // Use environment variable for port, cru
 
 // --- AI Configuration ---
 const MAX_SEARCH_DEPTH = 15; // A hard limit to prevent excessively long searches
-const AI_THINKING_TIME_MS = 5000; // AI will "think" for 3 seconds per move
+const AI_THINKING_TIME_MS = 10000; // AI will "think" for 10 seconds per move
 
 // Initialize the Transposition Table. This will store our calculated results.
 const transpositionTable = new Map();
