@@ -18,7 +18,7 @@ const transpositionTable = new Map();
 app.use(cors());
 app.use(express.json());
 // --- NEW LINES TO SERVE THE FRONTEND ---
-const path = require('path'); // Add this built-in module
+
 app.use(express.static(path.join(__dirname, 'public')));
 
 
